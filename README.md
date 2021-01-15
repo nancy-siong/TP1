@@ -1,4 +1,6 @@
-# ![](ressources/logo.jpeg) Bases de la programmation orientée objet 
+# ![](ressources/logo.jpeg)
+
+# Bases de la programmation orientée objet 
 
 ### IUT Montpellier-Sète – Département Informatique
 
@@ -86,7 +88,7 @@ email = choucroute.garnie@etu.umontpellier.fr
 ### Création de votre fork du TP1
 Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, vous n'utiliserez pas le bouton _fork_ classique de GitHub mais en cliquant sur **[CE LIEN](https://classroom.github.com/a/u-MsinoI)** !
 
-GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ contenant le fork du __IUTInfoMontp-M2103/tp1__. Le dépôt nouvellemen créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitHub en haut à gauche de la page (dans l'exemple le Username est `pvalicov`) :
+GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ contenant le fork du __IUTInfoMontp-M2103/tp1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitHub en haut à gauche de la page (dans l'exemple le Username est `pvalicov`) :
 
 ![](ressources/Fork_avec_classroom.png)
 
