@@ -9,7 +9,7 @@
 * Le [forum Piazza](https://piazza.com/class/kjifrxy1n0i3xa) de ce cours pour poser vos questions
 * [Email](mailto:petru.valicov@umontpellier.fr) pour une question d'ordre privée concernant le cours.
 
-Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'espace de stockage autorisé :
+<!--Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'espace de stockage autorisé :
 
 * placez-vous dans votre `$HOME` et utilisez les commandes suivantes :
     * `du -sh` pour voir combien d'espace vous avez déjà utilisé
@@ -17,7 +17,9 @@ Avant de démarrer le TP, vérifiez que vous n'avez pas atteint votre quota d'es
     * `du -sch .[!.]* *` pour voir combien d'espace vous avez déjà utilisé pour chaque fichier, y compris les fichiers cachés
 * Supprimez les fichiers inutiles.
 * Pour évitez des problèmes durant vos TPs d'informatique, vous devriez toujours **garder 300-400 Mo d'espace libre**.
+-->
 
+Les instructions de ce TP (et de ceux qui vont suivre) sont destinés pour les utilisateurs Linux. Des images de l'environnement Linux (Ubuntu) du département vous sont proposées par le service technique du département depuis le semestre 1, nous vous encourageons à les télécharger et les installer sur vos machines car vous en aurez besoin pour d'autres cours en informatique durant vos études à l'IUT. Si tout de même vous voulez utliser Windows ou Mac OS, une adaptation est possible, mais cela vous demandera un peu de travail de votre côté. Discutez-en avec votre chargé de TD avant de démarrer le TP !
 
 ## TP 1 : Rappels de Git et premier projet versionné
 
@@ -86,13 +88,13 @@ email = choucroute.garnie@etu.umontpellier.fr
 ```
 
 ### Création de votre fork du TP1
-Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, vous n'utiliserez pas le bouton _fork_ classique de GitHub mais en cliquant sur **[CE LIEN](https://classroom.github.com/a/u-MsinoI)** !
+Vous allez pouvoir commencer à travailler sur vos TP. Désormais le rendu, l'évaluation et le suivi de votre travail passeront par GitHub. La première chose que vous allez donc faire est de créer un fork d'un dépôt. Mais **attention**, pour cela vous n'utiliserez pas le bouton _fork_ classique de GitHub mais en cliquant sur **[CE LIEN](https://classroom.github.com/a/u-MsinoI)** !
 
-GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ contenant le fork du __IUTInfoMontp-M2103/tp1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitHub en haut à gauche de la page (dans l'exemple le Username est `pvalicov`) :
+GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ contenant le fork du __IUTInfoMontp-M2103/tp1__. Le dépôt nouvellement créé sera privé et vous apparaîtrez automatiquement comme contributeur de ce projet pour y pousser votre travail. Voici à quoi devrait rassembler l'entête de votre page GitHub en haut à gauche de la page (dans l'exemple le _username_ est `pvalicov`) :
 
 ![](ressources/Fork_avec_classroom.png)
 
-Remarquez que ce fork sera automatiquement intégré dans l'organisation du cours : _IUTInfoMontp-M2103_. Ce qui implique que les enseignants du module seront automatiquement admins de votre dépôt et pourront collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre plus facilement le travail de chaque étudiant. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cela on le verra plus tard...
+Remarquez que ce fork sera automatiquement intégré dans l'organisation du cours : _IUTInfoMontp-M2103_. Ce qui implique que les enseignants du module seront automatiquement admins de votre dépôt et pourront collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en intéragissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
 Vous allez  cloner le fork GitHub '*IUTInfoMontp-M2103/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
