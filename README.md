@@ -53,11 +53,11 @@ Maintenant que votre compte est créé, il faut personnaliser votre profil. GitH
 et efficace de conserver votre code en ligne, est aussi un réseau social de développeurs. Pour que votre profil puisse 
 être valorisé un jour dans votre carrière pro, vous devez correctement renseigner vos informations.
 
-#### Demande du "Student Pack"
+#### Demande du "Student Pack" (optionnel)
 
-Pour terminer la configuration de votre compte, il vous faut demander la remise académique vous permettant de bénéficier de dépôts privés et de nombreux autres avantages. Pour ce faire, il faut vous rendre sur la page suivante : https://education.github.com/pack
+Si vous le souhaitez, vous pouvez demander une remise académique vous permettant de bénéficier de nombreux avantages : des licences gratuites pour différents logiciels, possibilité d'avoir un nombre illimité de collaborateurs sur un projet privé, des outils d'intégration continue etc. Pour obtenir la licence académique il faut vous rendre sur la page suivante : https://education.github.com/pack
 
-Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudiant. Vérifiez les informations vous concernant et validez le formulaire pour terminer cette demande. Généralement la validation de la demande intervient dans l'heure mais il peut arriver que ça prenne plus de temps donc pas d'inquiétude.
+Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudiant. Vérifiez les informations vous concernant et validez le formulaire pour terminer cette demande. Généralement la validation de la demande intervient dans l'heure mais il peut arriver que ça prenne plus de temps donc pas d'inquiétude. Même si on vous conseille d'avoir le Student Pack, ce n'est pas obligatoire pour pouvoir réaliser les TPs.
 
 #### Prise en main de Git
 Git est installé sur les postes Linux du département informatique de l'IUT Montpellier-Sète. Voici comment l'installer sur votre machine en fonction de votre système d'exploitation :
