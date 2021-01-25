@@ -60,15 +60,16 @@ Si vous le souhaitez, vous pouvez demander une remise académique vous permettan
 Cliquez sur le bouton "Get your pack" et certifiez que vous êtes bien un étudiant. Vérifiez les informations vous concernant et validez le formulaire pour terminer cette demande. Généralement la validation de la demande intervient dans l'heure mais il peut arriver que ça prenne plus de temps donc pas d'inquiétude. Même si on vous conseille d'avoir le Student Pack, ce n'est pas obligatoire pour pouvoir réaliser les TPs.
 
 #### Prise en main de Git
+
 Git est installé sur les postes Linux du département informatique de l'IUT Montpellier-Sète. Voici comment l'installer sur votre machine en fonction de votre système d'exploitation :
 * Ubuntu ou une Debian : `sudo apt install git-all`
 * une autre distribution Linux : https://git-scm.com/download/linux
-* Windows : https://git-scm.com/download/win
-   * durant l'installation prenez le temps de lire et comprendre les différentes options d'installation avant de cliquer sur _Suivant_
-   * lors de l'installation vous pouvez choisir l'_Invité de Commandes_ de Windows comme terminal principal
+* Windows : https://desktop.github.com/ - application gratuite proposée par GitHub qui vous permet d'installer le logiciel Git sous Windows et aussi une interface graphique appropriée
 * Mac OS : https://git-scm.com/download/mac
 
-Normalement, la plupart d'entre vous ont suivi au Semestre 1 le [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT. Si vous n'avez jamais fait ce tutoriel ou souhaitez vous entraîner un peu plus, notamment sur l'utilisation des branches, vous pouvez utiliser le tutoriel interactif **[Git-It](https://github.com/jlord/git-it-electron)**. 
+**Faites le tutoriel**
+
+Normalement, la plupart d'entre vous ont suivi au Semestre 1 le [tutoriel Git](https://gitlabinfo.iutmontp.univ-montp2.fr/valicov/tutoGit1ereAnnee) de l'IUT et et cela vous sera utile dans le cours. Néanmoins vous devriez vous entraîner un peu plus, notamment sur l'utilisation des branches. On vous propose donci ici d'utiliser le tutoriel interactif **[Git-It](https://github.com/jlord/git-it-electron)**. 
 C'est une application multi-plateforme qui contient des défis pour l'apprentissage, en utilisant vraiment Git et GitHub, pas des émulateurs. Ces défis sont à réaliser en ligne de commande et avec GitHub. À la fin, lorsque vous aurez terminé tous les défis, vous aurez de vrais dépôts sur votre compte GitHub avec vos contributions. Pour faire ce tutoriel :
   * Téléchargez le fichier **"Git-it-Linux-x64.zip"** (ou Mac, ou Windows) depuis ce site : https://github.com/jlord/git-it-electron/releases.
   * Décompressez-le dans votre répertoire principal (`$HOME` sur Linux) et lancez l'exécutable `Git-it`. Une interface en français plus ou moins bien traduite est également disponible... La première étape du tutoriel (sur la création d'un compte GitHub) peut être passée car vous l'avez déjà réalisée dans la précédente étape du TP.
@@ -100,7 +101,8 @@ GitHub va vous créer un dépôt __IUTInfoMontp-M2103/tp1-votreUsername__ conten
 ![](ressources/Fork_avec_classroom.png)
 
 Remarquez que ce fork privé sera automatiquement intégré dans l'organisation du cours : _IUTInfoMontp-M2103_. Ce qui implique que les enseignants du module seront automatiquement admins de votre dépôt et pourront collaborer avec vous. Cette façon de faire permet d'une part de centraliser et uniformiser les rendus de chaque étudiant et, d'autre part, aux enseignants de suivre et aider plus facilement chaque étudiant en intéragissant directement sur son dépôt. Cela permet également de partager plus facilement une base de code et veiller au respect des consignes en y intégrant une batterie de tests. Mais cette dernière partie on la verra plus tard...
-Vous allez  cloner le fork GitHub '*IUTInfoMontp-M2103/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
+
+Vous allez cloner le fork GitHub '*IUTInfoMontp-M2103/tp1-votreUsername*' sur votre machine et travailler désormais localement tout en "versionnant" votre code et en poussant régulièrement vos réalisations.
 
 ### À faire pour chaque exercice 
 Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modifications sur votre fork de la manière suivante (dans cet exemple on suppose que vous êtes sur la branche master) :
@@ -116,7 +118,7 @@ Une fois qu'un exercice sera terminé, n'oubliez pas de pousser vos modification
 #### Exercice 1
 Dans la méthode principale de la classe `HelloWorld` faites afficher le message _"Salut le monde"_.
 1. Dans un terminal, compilez, exécutez et vérifiez votre programme.
-2. Versionnez votre travail avec `git add` + `git commit`.
+2. Versionnez l'intégralité de votre travail avec `git add .` + `git commit`.
 3. Faites un `git push` sur le dépôt GitHub et comparez avec votre répertoire local. Quelle différence constatez-vous et pourquoi ?
 
 En règle générale une séparation entre le code source et le byte code est nécessaire pour une meilleure lisibilité de votre programme. Ce qui est généralement conseillé c'est d'avoir au moins deux répetoires à la racine de votre projet. Par exemple `src` + `bin` ou encore `src` + `target`. Pour les différentes options de compilation : https://docs.oracle.com/javase/8/docs/technotes/tools/unix/javac.html
